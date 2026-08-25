@@ -23,4 +23,3 @@ def value_iteration_step(values: list, transitions: list, rewards: list, gamma: 
         new_values.append(float(best_value))
 
     return new_values
-    pass
